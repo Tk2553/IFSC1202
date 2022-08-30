@@ -1,4 +1,5 @@
-x=input("Enter Number : ")
-print ("The next number for the number",x ,"is",int(x)+int(1),".")
-""
-print ("The previous number for the number",x,"is",int(x)-int(1),".") 
+x=int(input("Enter Number : "))
+a= x+1
+b= x-1
+print ('The next number for the number',str(x) ,'is',str(a)+'.')
+print ('The previous number for the number',str(x),'is',str(b)+'.') 
