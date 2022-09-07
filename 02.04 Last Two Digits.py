@@ -1,4 +1,3 @@
 x=int(input("Enter a Number :"))
-b=x%100
-"{:03d}".format((b))
+b=("{:02}".format((x%100)))
 print(b) 
